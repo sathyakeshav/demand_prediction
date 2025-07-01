@@ -16,7 +16,7 @@ if uploaded_file:
 
     if st.button("📤 Submit to Lambda"):
         with st.spinner("Calling AWS Lambda..."):
-            api_url = "https://.execute-api.us-east-1.amazonaws.com/prophet"  # Replace this your prophet api
+            api_url = "https://ao6oq3jh56.execute-api.us-east-1.amazonaws.com/prophet"  # Replace this your prophet api
 
             try:
                 response = requests.post(
